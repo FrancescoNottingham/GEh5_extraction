@@ -1,8 +1,13 @@
 # Details
 
-Given the directory of an exam (example shown below) the script will move, rename and create a .json file for each .h5 file found in the folder (or within folders of the folder)
+Given the directory of an exam (example shown below) the script will move, rename and create a .json file for each .h5 file found in the folder (or within folders of the folder) in an output folder specified.
 
 ![](Input-directory.png) ![](Output-directory.png)
+
+## Usage
+
+python GEh5_script.py \<input directory\> \<output directory\>
+
 ## Naming convention
 
 The naming convention used is: _Series_**(number)**_\_YYYYMMDD.h5_
